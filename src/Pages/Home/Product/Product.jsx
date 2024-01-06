@@ -11,7 +11,7 @@ const Product = () => {
   return (
     <div className="flex flex-col justify-center my-4 items-center">
       <Headline title={"Our Products"} content={"Browse Our Products"}></Headline>
-      <div className="my-3 grid grid-cols-3 xsm:gap-3 lg:gap-8">
+      <div className="my-3 grid md:grid-cols-3 xsm:grid-cols-2 xsm:gap-3 lg:gap-8">
         <ProductCard product={product1}></ProductCard>
         <ProductCard product={product2}></ProductCard>
         <ProductCard product={product3}></ProductCard>

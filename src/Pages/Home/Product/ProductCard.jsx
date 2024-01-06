@@ -6,7 +6,7 @@ const ProductCXard = ({product}) => {
     <div className="card w-full rounded-2xl bg-base-100 shadow-xl text-center">
       <div className="bg-inherit rounded-2xl">
         <figure>
-          <img className="w-full xl:h-[200px] lg:h-[150px] md:h-[115px] xsm:h-[70px] md:px-24 sm:px-12 xsm:px-6" src={product} alt="Shoes" />
+          <img className="w-full xl:h-[200px] lg:h-[150px] md:px-24 sm:px-12 xsm:p-6" src={product} alt="Shoes" />
         </figure>
       </div>
       <div className="card-body p-0">

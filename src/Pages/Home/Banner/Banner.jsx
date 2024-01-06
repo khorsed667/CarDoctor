@@ -7,7 +7,7 @@ import img6 from "../../../assets/images/banner/6.jpg";
 
 const Banner = () => {
   return (
-    <div className="carousel w-full">
+    <div className="carousel h-[250px] sm:h-2/3 w-full">
       <div id="slide1" className="carousel-item relative  w-full">
         <img src={img1} className="w-full  rounded-2xl" />
         <div className="absolute flex flex-col bg-gradient-to-r from-[#000000] to-[rgba(21, 21, 21, 0.00)] justify-center rounded-2xl h-full">
@@ -16,16 +16,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, <span className="">but the
               majority have suffered alteration in some form</span>
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">
@@ -45,16 +45,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">
@@ -74,16 +74,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">
@@ -103,16 +103,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">
@@ -132,16 +132,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">
@@ -161,16 +161,16 @@ const Banner = () => {
               Affordable Price For Car Servicing
             </h1>
             <br />
-            <h4 className="md:text-xl sm:inline xsm:hidden">
+            <h4 className="md:text-xl">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </h4>
-            <div className="sm:my-5 xsm:my-2">
+            {/* <div className="sm:my-5 xsm:my-2">
               <button className="btn btn-primary">Discover More</button>
               <button className="btn mx-5 my-0 md:display hidden btn-outline btn-primary">
                 Latest Project
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-0">

@@ -5,11 +5,11 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="text-white bg-black border-2 border-black my-5 rounded-xl py-10 md:grid md:grid-cols-3">
-      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-2 md:my-0">
+    <div className="text-white bg-black border-2 border-black my-5 rounded-xl md:py-10 xsm:py-3 md:grid md:grid-cols-3">
+      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-4 md:my-0">
         <div>
           <FontAwesomeIcon
-            className="lg:w-[100px] xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
+            className="lg:w-[100px] xsm:pe-7 md:pe-0 xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
             icon={faCalendarDays}
           />
         </div>
@@ -18,10 +18,10 @@ const Contact = () => {
           <p className="text-xl font-bold">7:00 am - 9:00 pm</p>
         </div>
       </div>
-      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-2 md:my-0">
+      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-4 md:my-0">
         <div>
           <FontAwesomeIcon
-            className="lg:w-[100px] xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
+            className="lg:w-[100px] xsm:pe-7 md:pe-0 xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
             icon={faPhone}
           />
         </div>
@@ -30,10 +30,10 @@ const Contact = () => {
           <p className="text-xl font-bold">+2546 383 3251 2658</p>
         </div>
       </div>
-      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-2 md:my-0">
+      <div className="flex justify-center lg:p-2 lg:mx-2 md:p-1 md:mx-1 items-center xsm:my-4 md:my-0">
         <div>
           <FontAwesomeIcon
-            className="lg:w-[100px] xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
+            className="lg:w-[100px] xsm:pe-7 md:pe-0 xsm:w-[100px] md:w-[50px] text-orange-600 xsm:text-3xl md:text-2xl lg:text-3xl"
             icon={faLocationDot}
           />
         </div>

@@ -7,7 +7,7 @@ const Testimonial = () => {
     <div className="my-4 flex flex-col justify-center items-center">
       <Headline title={"Testimonial"} content={"What Customers Says..."}></Headline>
       <div className="flex">
-        <div className="md:p-5 xsm:p-2 xsm:mx-2 md:m-5 border-2 border-inherit">
+        <div className="md:p-5 xsm:p-2 md:m-5 border-2 border-inherit">
           <div className="md:flex justify-start items-center">
             <div>
               <FontAwesomeIcon className="text-4xl pe-4" icon={faUser} />
@@ -25,7 +25,7 @@ const Testimonial = () => {
           </p>
           <div><FontAwesomeIcon className="text-orange-600" icon={faStar} /><FontAwesomeIcon className="text-orange-600" icon={faStar} /><FontAwesomeIcon className="text-orange-600" icon={faStar} /><FontAwesomeIcon className="text-orange-600" icon={faStar} /><FontAwesomeIcon className="text-orange-600" icon={faStar} /></div>
         </div>
-        <div className="md:p-5 xsm:p-2 xsm:mx-2 md:m-5 border-2 border-inherit">
+        <div className="md:p-5 xsm:p-2 md:m-5 border-2 border-inherit">
           <div className="md:flex justify-start items-center">
             <div>
               <FontAwesomeIcon className="text-4xl pe-4" icon={faUser} />
