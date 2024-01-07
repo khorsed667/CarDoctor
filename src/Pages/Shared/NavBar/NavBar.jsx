@@ -2,14 +2,15 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.svg";
 import { useContext } from "react";
 import { AuthContext } from "../../../Providers/AuthProvider";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
 
   const handelLogOut = () => {
     logOut()
-      .then(() => {
-      })
+      .then(() => {})
       .catch((error) => {
         console.log(error);
       });
@@ -25,12 +26,12 @@ const NavBar = () => {
       </li>
       {user?.email ? (
         <>
-        <li>
-        <Link to="/bookings">Bookings</Link>
-      </li>
-        <li>
-          <button onClick={handelLogOut}>Logout</button>
-        </li>
+          <li>
+            <Link to="/bookings">Bookings</Link>
+          </li>
+          <li>
+            <button onClick={handelLogOut}>Logout</button>
+          </li>
         </>
       ) : (
         <li>
@@ -75,7 +76,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navitems}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline btn-warning">Appoinment</button>
+        <Link to={"/login"}><FontAwesomeIcon className="xsm:text-2xl xsm:pe-5" icon={faUser} /></Link>
       </div>
     </div>
   );

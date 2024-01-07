@@ -17,7 +17,7 @@ const Banner = () => {
             </h1>
             <br />
             <h4 className="md:text-xl">
-              There are many variations of passages of available, <span className="">but the
+              There are many variations of passages of available but the <span className="xsm:hidden md:inline">
               majority have suffered alteration in some form</span>
             </h4>
             {/* <div className="sm:my-5 xsm:my-2">
